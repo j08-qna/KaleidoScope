@@ -1,0 +1,231 @@
+.footer{
+  background-color:black;
+  position:absolute;
+  width:100%;
+  aspect-ratio:100/26;
+  right:0;
+  left:0;
+}
+
+.footer .relative{
+  left:0;
+  right:0;
+  height:100%;
+  background-color: rgba(230, 50, 0, 0.2);
+  position:relative;
+}
+
+.footer .relative .top{
+  background-color: rgb(14, 14, 74);
+  position:absolute;
+  left: 0;
+  right:0;
+  height:85%;
+  top:0;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.footer .relative .top .column1{
+  background-color: rgba(250,250,250,0.3);
+  height:74.5%;
+  width:31%;
+  padding:2vh 4vw;
+}
+
+.footer .relative .top .column1 .logo{
+  position:relative;
+  background-color:rgb(83, 83, 49);
+  height:24%;
+  width:85%;
+}
+
+.footer .relative .top .column1 .logo .intial{
+  color:white;
+  text-shadow:none;
+  font-family:"Jomolhari";
+  font-size:4vw;
+  position:absolute;
+  top:-32%;
+}
+
+.footer .relative .top .column1 .logo .border{
+  top:15%;
+  width:0.1%;
+  height:70%;
+  background-color:white;
+  left:31%;
+  position:absolute;
+}
+
+.footer .relative .top .column1 .logo .fullName{
+  color:white;
+  text-shadow:none;
+  font-family:"Kanit";
+  font-size:1.4vw;
+  position:absolute;
+  top:15%;
+  left: 34%;
+  text-align: start;
+  width:50%;
+  line-height:100%;
+}
+
+.footer .relative .top .column2{
+  background-color: rgba(208, 95, 95, 0.3);
+  height:84%;
+  width:64%;
+}
+
+.footer .relative .top .column2 .top2{
+  width:100%;
+  height:50%;
+  background-color:black;
+  display:flex;
+  flex-direction:row;
+}
+
+.footer .relative .top .column2 .top2 .column2-1{
+  background-color:rgb(157, 36, 36);
+  width:28%;
+  height:100%;
+  display:flex;
+  flex-direction:column;
+  align-items:start;
+}
+
+.footer .relative .top .column2 .top2 .column2-1 .heading{
+  color:white;
+  font-family:"Kanit";
+  font-size: 0.9vw;
+  margin-bottom:3%;
+  text-align:start;
+  width:80%;
+  margin-left:1.5vw;
+}
+
+.footer .relative .top .column2 .top2 .column2-1 .text{
+  color:rgb(123, 123, 123);
+  font-family:"Kanit";
+  font-size: 0.8vw;
+  width:60%;
+  margin-left:1.5vw;
+}
+
+.footer .relative .top .column2 .top2 .column2-2{
+  background-color:rgb(36, 60, 157);
+  width:37%;
+  height:100%;
+  display:flex;
+  justify-content:start;
+  flex-direction:row;
+  align-items:start;
+}
+
+.footer .relative .top .column2 .top2 .column2-2 .socialMedia1{
+  width:2.5vw;
+  height:2.5vw;
+  background-color:white;
+  margin-left:4%;
+  border-radius:100000%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.footer .relative .top .column2 .top2 .column2-2 .socialMedia1 img{
+  width:65%;
+  height:65%;
+}
+
+.footer .relative .top .column2 .top2 .column2-2 .socialMedia2{
+  width:2.5vw;
+  height:2.5vw;
+  background-color:white;
+  margin-left:2%;
+  border-radius:100000%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.footer .relative .top .column2 .top2 .column2-2 .socialMedia2 img{
+  width:40%;
+  height:40%;
+}
+
+.footer .relative .top .column2 .top2 .column2-2 .socialMedia2 .twitter{
+  width:60%;
+  height:60%;
+}
+
+.footer .relative .top .column2 .top2 .column2-2 .socialMedia2 .youtube{
+  width:70%;
+  height:70%
+}
+
+.footer .relative .top .column2 .top2 .column2-2 .socialMedia2 .ins{
+  width:50%;
+  height:50%;
+}
+
+.footer .relative .top .column2 .top2 .column2-3{
+  background-color:rgba(208, 95, 95, 0.3);
+  width:30%;
+  height:100%;
+  display:flex;
+  justify-content:start;
+  flex-direction:column;
+  align-items:start;
+}
+
+.footer .relative .top .column2 .top2 .column2-3 .footerButton{
+  margin-left:0.5vw;
+  background-color:rgb(195, 195, 195);
+  color:black;
+  font-family: "Kanit";
+  padding:0.5vw 1.5vw;
+  font-size:1vw;
+  margin-bottom:10%;
+  width:max-content;
+}
+
+.footer .relative .top .column2 .top2-1{
+  background-color:rgb(113, 113, 73);
+  height:50%;
+  width:100%;
+  display:flex;
+  flex-direction:row;
+}
+
+.footer .relative .top .column2 .top2-1 .column2-1-1{
+  background-color:rgb(34, 34, 79);
+  width:30%;
+  height:100%;
+  font-family:"Kanit";
+  font-size: 1.16vw;
+  color:white;
+}
+
+.footer .relative .top .column2 .top2-1 .column2-1-1 .footerLink{
+  display:block;
+  margin-left:1.5vw;
+  margin-bottom: 1vw;
+}
+
+.footer .relative .bottom{
+  position:absolute;
+  background-color:rgb(95, 95, 27);
+  left: 0;
+  right:0;
+  bottom:0;
+  height:15%;
+}
+
+.footer .relative .bottom .last1{
+  font-family:"Kanit";
+  color:white;
+  font-size:1vw;
+  margin-left:4vw;
+}

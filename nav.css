@@ -1,0 +1,88 @@
+body{
+  padding-top: 17%;
+  overflow-x:hidden;
+}
+
+img{
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position: center;
+}
+
+a{
+  text-decoration:none;
+}
+
+a:visited{
+  text-decoration:none;
+  color:inherit;
+}
+
+.nav{
+  position: absolute;
+  left:0vh;
+  overflow-x: hidden;
+  width: 100%;
+  top:0;
+  aspect-ratio:100/13;
+  display: flex;
+  flex-direction:row;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.nav .logo-container{
+  background-color: #DCBDB6;
+  display: inline-block;
+  width: 20.2%;
+  height:3.8vw;
+  align-items:center;
+  display:flex;
+  justify-content:center;
+}
+
+.logo{
+  font-family: "Alegreya Sans SC";
+  font-weight: medium;
+  text-shadow: 0 4px 4px rgba(0,0,0,0.25);
+  font-size: 2.1vw;
+  text-align:center;
+}
+
+.pages{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  padding: 0 10%;
+  width: 67.7%;
+}
+
+.page{
+  font-weight: 400;
+  color: black;
+  font-family: "Khmer", sans-serif;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.25);
+  padding: 0 2%;
+  position: relative;
+  font-size:1.2vw;
+}
+
+.page::after{
+  content: "";
+  background: black;
+  position: absolute;
+  height:13%;
+  width: 40%;
+  bottom: -20%;
+  left:30%;
+  transform: scale(0,0);
+  transition: transform 0.15s ease;
+}
+
+.page:hover::after{
+  transform: scale(1,1);
+}
+
+.current::after{
+  transform:scale(1,1) !important;
+}

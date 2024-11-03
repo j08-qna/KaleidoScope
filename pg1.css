@@ -1,0 +1,153 @@
+.pg1{
+  position: relative;
+  overflow-x: hidden;
+  width: 100%;
+  left: 0;
+  aspect-ratio:100/112;
+}
+
+.cover{
+  position: absolute;
+  right: 5.8vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 62.7%;
+  aspect-ratio:62.7/18;
+  top: 0vh;
+}
+
+.title{
+  font-family: "Koulen", sans-serif;
+  font-weight: 400;
+  font-size: 3.97vw;
+  text-align: center;
+  margin:0;
+}
+
+.start{
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  font-family: "kanit", sans-serif;
+  font-weight: 400;
+  font-size: 1.25vw;
+  display: inline;
+  padding: 7.7% 2.7vw;
+  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.25);
+  border-radius: 0.8vw;
+}
+
+.pg1 .img1{
+  top: 4%;
+  width: 55%;
+  aspect-ratio:50/65.5;
+  position: absolute;
+  left: -20.7%;
+  border-radius: 70vh;
+  background-image: url(https://img.freepik.com/free-photo/fashionable-pale-brunette-long-green-dress-black-jacket-sunglasses-standing-street-during-daytime-against-wall-light-city-building_197531-24468.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1723939200&semt=ais_hybrid);
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position: center;
+  z-index:50;
+}
+
+.pg1 .img2{
+  top: 22%;
+  width: 55%;
+  aspect-ratio:50/65.5;
+  position: absolute;
+  right: -21.3%;
+  border-radius: 70vh;
+  background-image: url(https://i.pinimg.com/564x/33/c7/76/33c776e4c786839335ee3e3ce90f0326.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position: center;
+  overflow-x: visible;
+}
+
+.text{
+  position: relative;
+}
+
+.script{
+  position: absolute;
+  font-family: "Imperial Script", cursive;
+  font-weight: 400;
+  font-size: 2.8vw;
+  right: -52.8%;
+  top: 26%;
+  width: 90%;
+}
+
+.circles{
+  position:absolute;
+  display: flex;
+  flex-direction:row;
+  width: 12.5%;
+  aspect-ratio:7/0.96;
+  justify-content:space-between;
+  align-items:center;
+  top: -9%;
+  right:49%;
+}
+
+.circles .circle{
+  width:13.7%;
+  height:100%;
+  background-color:#070707B2;
+  border-radius:50vh;
+}
+
+.side{
+  position: absolute;
+  font-family: "Abhaya Libre", serif;
+  font-weight: 800;
+  font-size: 3.35vw;
+  left: -50.5%;
+  width: 70%;
+  transform:rotate(270deg);
+  margin: 0;
+  bottom: 22.7%;
+}
+
+.small{
+  position: absolute;
+  background-color: black;
+  width: 30%;
+  aspect-ratio:30/0.2;
+  bottom: -5.6%;
+  left: 26%;
+}
+
+.big{
+  position: absolute;
+  background-color: black;
+  width: 50%;
+  aspect-ratio:50/0.54;
+  bottom: -11%;
+  left: 0vh;
+}
+
+.doIt{
+  position: absolute;
+  bottom: -11.2%;
+  left: 0vh;
+  font-family: "Kanit", sans-serif;
+  font-size: 2.25vw;
+  font-weight: 400;
+}
+
+.pg1 .extra{
+  background:none;
+}
+
+.pg1 .extra .white{
+  background-color:#f8ebd8a7;
+  aspect-ratio:102/31.5;
+  width: 180.5%;
+  right:39%;
+  position:absolute;
+  bottom:23%;
+  z-index:0;
+}

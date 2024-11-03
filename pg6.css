@@ -1,0 +1,127 @@
+.pg6{
+  position: relative;
+  overflow-x: hidden;
+  width: 100%;
+  left:0;
+  aspect-ratio:100/150;
+}
+
+.pg6 .h1{
+  font-family: "Jomolhari", sans-serif;
+  font-size: 5.7vw;
+  position: absolute;
+  left: 4.5vw;
+  top: 0;
+}
+
+.pg6 .h2{
+  font-family: "Jomolhari", sans-serif;
+  font-size: 4.5vw;
+  position: absolute;
+  left: 5.2vw;
+  top: 3%;
+}
+
+.pg6 .h3{
+  font-family: "Jomolhari", sans-serif;
+  font-size: 1.3vw;
+  position: absolute;
+  left: 5.2vw;
+  top: 32%;
+}
+
+.pg6 .base{
+  background-color: #DBC1B0;
+  position: relative;
+  top: 8%;
+  width: 100%;
+  aspect-ratio:1728/401;
+  left:0;
+}
+
+.pg6 .base .img{
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position: center;
+  position: absolute;
+}
+
+.pg6 .base .img1{
+  width: 28vw;
+  aspect-ratio:522/227;
+  border-radius: 50vw;
+  left: 5.2vw;
+  bottom: -38%;
+  background-image: url(https://i.pinimg.com/564x/33/c7/76/33c776e4c786839335ee3e3ce90f0326.jpg);
+}
+
+.pg6 .base .img2{
+  width: 38vw;
+  aspect-ratio:710/550;
+  left: 5.2vw;
+  bottom: -210%;
+  background-image: url(https://img.freepik.com/free-photo/fashionable-pale-brunette-long-green-dress-black-jacket-sunglasses-standing-street-during-daytime-against-wall-light-city-building_197531-24468.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1723939200&semt=ais_hybrid);
+}
+
+.pg6 .base .img3{
+  width: 42vw;
+  aspect-ratio: 716/1050;
+  right: 4.5vw;
+  top: 17%;
+  background-image: url(https://i.pinimg.com/564x/33/c7/76/33c776e4c786839335ee3e3ce90f0326.jpg);
+}
+
+.pg6 .base .line{
+  position: absolute;
+}
+
+.pg6 .base .l1{
+  width: 13vw;
+  background-color: black;
+  height: 0.15vw;
+  top: 6%;
+  right: 36vw;
+}
+
+.pg6 .base .l2{
+  width: 0.15vw;
+  background-color: black;
+  height: 60%;
+  top: 6%;
+  right: 49vw;
+}
+
+.pg6 .base .l3{
+  width: 0.15vw;
+  background-color: black;
+  height: 60%;
+  bottom: -202%;
+  right: 1.9%;
+}
+
+.pg6 .base .l4{
+  width: 13vw;
+  background-color: black;
+  height: 0.15%;
+  bottom: -202%;
+  right: 1.9%;
+}
+
+.pg6 .base .women{
+  bottom: -275%;
+  right: 3vw;
+  font-family: "Jomolhari", sans-serif;
+  font-size: 5.7vw;
+  position: absolute;
+}
+
+.pg6 .base .p{
+  position: absolute;
+  font-family: "Abhaya Libre", sans-serif;
+  bottom: -380%;
+  left: 5.2vw;
+  font-size: 2.5vw;
+  font-weight: 500;
+  width: 58vw;
+  line-height: 4.7vw;
+}

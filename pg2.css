@@ -1,0 +1,74 @@
+.pg2{
+  position: relative;
+  overflow-x: hidden;
+  width: 100%;
+  aspect-ratio:100/115;
+}
+
+.pg2 .h1{
+  position: relative;
+}
+
+.pg2 .h1 .collection{
+  font-family: "Jomolhari", serif;
+  font-size: 10.2vw;
+  top:0;
+  margin-top:0;
+}
+
+.pg2 .h1 .small{
+  width: 41vw;
+  height:0.4%;
+  top: 100%;
+  left:0;
+}
+
+.pg2 .base{
+  background-color: #EAD7BBE5;
+  width: 73vw;
+  height: 42%;
+  position: absolute;
+  right: 0vh;
+}
+
+.pg2 .text{
+  position: absolute;
+  font-family: "Abhaya Libre", sans-serif;
+  font-weight: 800;
+  font-size: 2.6vw;
+}
+
+.pg2 .base .t1{
+  top: -17%;
+  left: -32vw;
+  width: 70vw;
+}
+
+.pg2 .img{
+  position: absolute;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position: center;
+}
+
+.pg2 .img1{
+  width: 26vw;
+  aspect-ratio:489/552;
+  right: 0;
+  top: -6%;
+  background-image: url(https://img.freepik.com/free-photo/fashionable-pale-brunette-long-green-dress-black-jacket-sunglasses-standing-street-during-daytime-against-wall-light-city-building_197531-24468.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1723939200&semt=ais_hybrid);
+}
+
+.pg2 .img2{
+  width: 43vw;
+  aspect-ratio:750/793;
+  left: -20vw;
+  bottom: -40%;
+  background-image: url(https://i.pinimg.com/564x/33/c7/76/33c776e4c786839335ee3e3ce90f0326.jpg);
+}
+
+.pg2 .t2{
+  width: 80vw;
+  bottom: -21%;
+  right: -35vw;
+}
